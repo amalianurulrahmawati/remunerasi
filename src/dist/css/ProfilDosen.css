@@ -1,0 +1,103 @@
+.container_profildosen {
+    padding: 5px;
+}
+
+.profildosen h1 {
+    margin-bottom: 30px;
+}
+
+.icon-box-profildosen {
+    display: flex;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    flex-direction: row;  /* Pastikan elemen ditata secara horizontal */
+    justify-content: flex-start;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Needed to position the vertical line */
+}
+
+.icon-box-profildosen::before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    left: 85%; /* Position the line in the middle */
+    width: 2px; /* Set the width of the line */
+    background-color: #081334; /* Set the color of the line */
+}
+
+.icon-item-profildosen {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-align: left;
+    flex: 1;
+    padding: 0 20px; /* Add padding for spacing */
+}
+
+.icon {
+    display: flex;
+    align-items: flex-start;  /* Mengubah posisi vertikal ikon ke atas */
+    justify-content: flex-start;
+}
+
+.icon-name-profildosen {
+    font-size: 14px;
+    font-weight: bold;
+    color: #081334;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.icon-description-profildosen {
+    font-size: 12px;
+    color: #555555;
+    margin: 0;
+    font-weight: normal !important;
+}
+.teks1 {
+    position: absolute;
+    right: 10px;  /* Position it on the right side */
+    top: 50%;  /* Vertically center it */
+    transform: translateY(-50%); /* Ensure it stays centered vertically */
+    text-align: left;
+}
+.teks1 h3{
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0;
+}
+.teks1 p{
+    font-size: 14px;
+}
+.pendidikan_btn {
+    background-color: #6395EE;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+    margin-right: 10px;
+}
+.pendidikan_btn:hover {
+    background-color: #236be7;
+}
+.penelitian_btn {
+    background-color: #6395EE;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 35px;
+}
+.penelitian_btn:hover {
+    background-color: #236be7;
+}

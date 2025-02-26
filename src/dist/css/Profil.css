@@ -1,0 +1,75 @@
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container_profil {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    width: 100%;
+    justify-content: center;
+}
+.form_box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 80px;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    width: 100%;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.container_profil input[type="text"],
+.container_profil input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.admin_image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #ddd;
+}
+.form_container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+form label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+form input {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    width: 100%;
+}
+@media (max-width: 768px) {
+    .form_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image_container {
+        margin-bottom: 20px;
+    }
+}
+.image_container {
+    margin-left: 40px;
+}

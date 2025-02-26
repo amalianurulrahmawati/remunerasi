@@ -1,0 +1,80 @@
+.container_daftarprodi {
+    padding: 5px;
+}
+.daftarprodi h1 {
+    margin-bottom: 30px;
+}
+.componen_daftarprodi {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+.prodi-box {
+    background-color: #6395EE;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    gap: 10px;
+}
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+    color: #FFFFFF;
+}
+.prodi-box h3 {
+    font-size: 14px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .componen_daftarprodi {
+        grid-template-columns: 1fr 1fr; /* 2 kolom */
+    }
+}
+@media (max-width: 480px) {
+    .componen_daftarprodi {
+      grid-template-columns: 1fr; /* 1 kolom */
+    }
+}
+.icon-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    justify-content: space-around;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    text-align: left;
+}
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon-name {
+    font-size: 14px;
+    font-weight: bold;
+    color: #081334;
+    margin: 0;
+    margin-bottom: 5px;
+}
+.icon-description {
+    font-size: 12px;
+    color: #555555;
+    margin: 0;
+    font-weight: normal !important;
+}

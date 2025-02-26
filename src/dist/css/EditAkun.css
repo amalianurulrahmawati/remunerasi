@@ -1,0 +1,63 @@
+body {
+    background-color: #F5F5F5;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container_editakun {
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    justify-content: center;
+}
+.form_box_editakun {
+    background-color: #FFFFFF;
+    padding: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+.container_editakun input[type="text"],
+.container_editakun input[type="email"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 12px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+.container_editakun input[type="file"] {
+    font-size: 13px;
+}
+.button_group {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+}
+button{
+    padding: 5px 20px;
+    font-size: 13px;
+    border-radius: 5px;
+    border: 1px;
+    cursor: pointer;
+}
+button.batal {
+    background-color: #CD1C18;
+    color: white;
+}
+button.simpan {
+    background-color: #6395EE;
+    color: white;
+}
